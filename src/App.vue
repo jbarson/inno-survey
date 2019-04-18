@@ -218,7 +218,7 @@ export default {
           type: "comment",
           name: "improvement_suggestion",
           title: "What is your top suggestion for how IT can change or improve to better meet your needs?",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "Overall Satisfaction"
@@ -759,10 +759,10 @@ export default {
             title: "How much business value would be created by improving the following IT services? Please rank from most to least",
             isRequired: true,
             choices: [
-              "Requirements Gathering", 
-              "Innovation Leadership", 
-              "Projects", 
-              "Customer-Facing Technology", 
+              "Requirements Gathering",
+              "Innovation Leadership",
+              "Projects",
+              "Customer-Facing Technology",
               "IT Security",
               "IT Policies",
               "Data Quality",
@@ -1001,7 +1001,7 @@ export default {
           type: "comment",
           name: "it_improvement_opportunity",
           title: "What is the biggest opportunity for IT to better meet your needs through Business Applications? (Is there a gap in application coverage, a process or an app that isn't effectively meeting your needs?)",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "Business Applications"
@@ -1119,7 +1119,7 @@ export default {
           type: "comment",
           name: "suggestion_it_reporting",
           title: "What is your top suggestion for how IT could better meet your Data, Reporting and Analytics needs?",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "Data Reliability & Analytical Capability"
@@ -1512,7 +1512,7 @@ export default {
           type: "comment",
           name: "knowledge_customer_facing_technology",
           title: "What does IT need to know about the greatest opportunity to improve Customer-Facing Technology?",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "Customer-Facing Technology"
@@ -1577,7 +1577,7 @@ export default {
           type: "comment",
           name: "improvement_technology",
           title: "What is your best idea for how technology can be utilized to innovate, transform and optimize performance?",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "IT Innovation Leadership"
@@ -1642,7 +1642,7 @@ export default {
           type: "comment",
           name: "improvement_requirements_gathering",
           title: "What is the greatest area of improvement within Requirements Gathering to better support the business?",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "Requirements Gathering"
@@ -1783,7 +1783,7 @@ export default {
           type: "comment",
           name: "it_security_pain_point",
           title: "What is the biggest pain point in terms of IT Security interfering with your work? What would you like to see done differently?",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "IT Security & Policies"
@@ -2013,7 +2013,7 @@ export default {
           type: "comment",
           name: "anonymous_response",
           title: "Please add any additional comments here.  These comments will be presented in an anonymous fashion to the survey administrator.",
-          defaultValue: "Answer"
+          placeHolder: "Answer"
           }
         ],
         title: "Additional Comments"
@@ -2033,7 +2033,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang='scss'>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
