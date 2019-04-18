@@ -12,6 +12,8 @@ import * as SurveyVue from "survey-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import * as widgets from "surveyjs-widgets";
 import ciobv from "../src/assets/CIOBV.json";
+import "./assets/styles/base.scss";
+import "./assets/styles/button-group.scss"
 
 const Survey = SurveyVue.Survey;
 Survey.cssType = "bootstrap";
@@ -43,12 +45,23 @@ export default {
 </script>
 
 <style lang='scss'>
+
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+
+.sv_main {
+  background: none;
+}
+
+.panel-footer {
+  background-color: none;
 }
 </style>
