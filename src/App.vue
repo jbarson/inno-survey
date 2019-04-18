@@ -2,9 +2,9 @@
   <div id="app">  
     <div id="surveyElement">
       <img src="./assets/images/itrg-logo.svg" id="logo">
-            <survey :survey='survey'/>
-        </div>
-        <div id="surveyResult">{{survey.data}}</div>
+      <survey :survey='survey'/>
+    </div>
+    <div id="surveyResult">{{survey.data}}</div>
   </div>
 </template>
 
@@ -63,6 +63,5 @@ import "./assets/styles/question.scss"
     color: #2c3e50;
     background-color:#fff;
     background-image:linear-gradient(135deg, transparent 0%, #fff 25%, #fff 75%, transparent 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQoU2N89+7dfwYsQEhIiBEkzDgkFGDzAbIY2Cv4AACvrBgJjYNGfwAAAABJRU5ErkJggg==);
-  
   }
 </style>
