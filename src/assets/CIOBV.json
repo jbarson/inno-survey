@@ -46,35 +46,35 @@
         "commenttext": "Other (describe)",
         "choices": [
         {
-        "value": "item1",
+        "value": "Owner / President / CEO",
         "text": "Owner / President / CEO"
         },
         {
-        "value": "item2",
+        "value": "C-Level",
         "text": "C-Level"
         },
         {
-        "value": "item3",
+        "value": "VP-Level",
         "text": "VP-Level"
         },
         {
-        "value": "item4",
+        "value": "Director Level",
         "text": "Director Level"
         },
         {
-        "value": "item5",
+        "value": "Manager Level",
         "text": "Manager Level"
         },
         {
-        "value": "item6",
+        "value": "Team Member",
         "text": "Team Member"
         },
         {
-        "value": "item7",
+        "value": "Contractor",
         "text": "Contractor"
         },
         {
-        "value": "item8",
+        "value": "Other",
         "text": "Other"
         }
       ],
@@ -722,14 +722,14 @@
     "elements": [
       {
         "type": "sortablelist",
-        "name": "lifepriority",
+        "name": "standard_core_service_ranking",
         "title": "How much business value would be created by improving the following IT services? Please rank from most to least",
         "isRequired": true,
         "choices": [
-          "Requirements Gathering", 
-          "Innovation Leadership", 
-          "Projects", 
-          "Customer-Facing Technology", 
+          "Requirements Gathering",
+          "Innovation Leadership",
+          "Projects",
+          "Customer-Facing Technology",
           "IT Security",
           "IT Policies",
           "Data Quality",
