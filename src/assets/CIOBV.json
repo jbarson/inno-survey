@@ -43,7 +43,7 @@
         "startWithNewLine": false,
         "title": "Seniority Level",
         "isRequired": true,
-        "commenttext": "Other (describe)",
+        "commentText": "Other (describe)",
         "choices": [
         {
         "value": "item1",
@@ -115,7 +115,7 @@
       "name": "overall_satisfaction",
       "title": "Overall, considering all factors, how satisfied are you with the IT department and its ability to support your needs?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         "1",
         "2",
         "3",
@@ -136,49 +136,21 @@
       "name": "overall_value",
       "title": "How satisfied are you that IT provides high value relative to your perception of cost and staffing?",
       "isRequired": true,
-      "ratevalues": [
-        {
-        "value": "1",
-        "text": "Not At All Satisfied"
-        },
-        {
-        "value": "2",
-        "text": "2"
-        },
-        {
-        "value": "3",
-        "text": "3"
-        },
-        {
-        "value": "4",
-        "text": "4"
-        },
-        {
-        "value": "5",
-        "text": "5"
-        },
-        {
-        "value": "6",
-        "text": "6"
-        },
-        {
-        "value": "7",
-        "text": "Neutral"
-        },
-        {
-        "value": "8",
-        "text": "8"
-        },
-        {
-        "value": "9",
-        "text": "9"
-        },
-        {
-        "value": "10",
-        "text": "Fully Satisfied"
-        }
+      "rateValues": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
       ],
-      "rateMax": 10
+      "rateMax": 10,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "comment",
@@ -196,10 +168,10 @@
       "type": "rating",
       "name": "business_objective_value_01",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -235,7 +207,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -248,10 +220,10 @@
       "type": "rating",
       "name": "business_objective_value_02",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -287,7 +259,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -300,10 +272,10 @@
       "type": "rating",
       "name": "business_objective_value_03",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -339,7 +311,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -352,10 +324,10 @@
       "type": "rating",
       "name": "business_objective_value_04",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -391,7 +363,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -404,10 +376,10 @@
       "type": "rating",
       "name": "business_objective_value_05",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -443,7 +415,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -456,10 +428,10 @@
       "type": "rating",
       "name": "business_objective_value_06",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -495,7 +467,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -508,10 +480,10 @@
       "type": "rating",
       "name": "business_objective_value_07",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -547,7 +519,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -560,10 +532,10 @@
       "type": "rating",
       "name": "business_objective_value_08",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -599,7 +571,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -612,10 +584,10 @@
       "type": "rating",
       "name": "business_objective_value_09",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -651,7 +623,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -664,10 +636,10 @@
       "type": "rating",
       "name": "business_objective_value_10",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not at all Satisfied 1"
         },
         {
         "value": "2",
@@ -703,7 +675,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -751,10 +723,10 @@
       "name": "net_inf_reliability_and_effectiveness_sat",
       "title": "How satisfied are you with the reliability and effectiveness of the core communication and network Infrastructure?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -778,7 +750,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -790,7 +762,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -804,10 +776,10 @@
       "name": "satisfaction_device",
       "title": "How satisfied are you with the PC, laptop, tablet, and mobile devices provided and their performance?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -831,7 +803,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -843,7 +815,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -857,10 +829,10 @@
       "name": "satisfaction_service_desk",
       "title": "How satisfied are you with the responsiveness and effectiveness of the Service Desk?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -884,7 +856,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -896,7 +868,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -916,10 +888,10 @@
       "name": "satisfaction_business_apps",
       "title": "How satisfied are you with the Business Applications provided by IT and the functionality they provide to support your group?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -943,7 +915,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -955,7 +927,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -981,10 +953,10 @@
       "name": "satisfaction_data",
       "title": "How satisfied are you with the quality, reliability, and effectiveness of the Data you use to manage your group?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1008,7 +980,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1020,7 +992,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1034,10 +1006,10 @@
       "name": "satisfaction_reporting",
       "title": "How satisfied are you with the Reporting and Analytical Capability available to you to generate business insights within your group? (Including standard reports, custom reports capability, and BI tools)",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1061,7 +1033,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1073,7 +1045,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1099,10 +1071,10 @@
       "name": "satisfaction_work_orders",
       "title": "How satisfied are you with IT's ability to begin and complete your requested IT customizations and small Work Orders in a timely manner?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1126,7 +1098,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1138,7 +1110,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1152,10 +1124,10 @@
       "name": "satisfaction_work_order_completion",
       "title": "How satisfied are you with the completed IT customizations, Work Orders, and enhancements and their ability to meet your intended business needs effectively?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1179,7 +1151,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1191,7 +1163,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1211,10 +1183,10 @@
       "name": "satisfaction_big_projects",
       "title": "How satisfied are you with the availability of IT capacity to begin and complete significant IT Projects & initiatives which enable your group to achieve your strategic objectives?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1238,7 +1210,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1250,7 +1222,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1264,10 +1236,10 @@
       "name": "satisfaction_project_completion",
       "title": "How satisfied are you with completed IT Projects and the IT department's ability to deliver effective solutions to meet your business needs?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1291,7 +1263,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1303,7 +1275,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1323,98 +1295,42 @@
       "name": "capacity_need",
       "title": "To what extent is your group constrained and prevented from reaching your strategic goals by IT Capacity?",
       "isRequired": true,
-      "ratevalues": [
-        {
-        "value": "1",
-        "text": "Not Constrained"
-        },
-        {
-        "value": "2",
-        "text": "2"
-        },
-        {
-        "value": "3",
-        "text": "3"
-        },
-        {
-        "value": "4",
-        "text": "4"
-        },
-        {
-        "value": "5",
-        "text": "5"
-        },
-        {
-        "value": "6",
-        "text": "Somewhat Constrained"
-        },
-        {
-        "value": "7",
-        "text": "7"
-        },
-        {
-        "value": "8",
-        "text": "8"
-        },
-        {
-        "value": "9",
-        "text": "9"
-        },
-        {
-        "value": "10",
-        "text": "Very Constrained"
-        }
+      "rateValues": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
       ],
-      "rateMax": 10
+      "rateMax": 10,
+      "minRateDescription": "Not Constrained",
+      "maxRateDescription": "Very Constrained"
       },
       {
       "type": "rating",
       "name": "capacity_shadowit",
       "title": "To what extent do you look externally and purchase IT services & applications without IT involvement, due to a lack of internal IT Capacity?",
       "isRequired": true,
-      "ratevalues": [
-        {
-        "value": "1",
-        "text": "Not At All"
-        },
-        {
-        "value": "2",
-        "text": "2"
-        },
-        {
-        "value": "3",
-        "text": "3"
-        },
-        {
-        "value": "4",
-        "text": "4"
-        },
-        {
-        "value": "5",
-        "text": "5"
-        },
-        {
-        "value": "6",
-        "text": "Sometimes"
-        },
-        {
-        "value": "7",
-        "text": "7"
-        },
-        {
-        "value": "8",
-        "text": "8"
-        },
-        {
-        "value": "9",
-        "text": "9"
-        },
-        {
-        "value": "10",
-        "text": "Consistently"
-        }
+      "rateValues": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
       ],
-      "rateMax": 10
+      "rateMax": 10,
+      "minRateDescription": "Not At All",
+      "maxRateDescription": "Consistently"
       }
     ],
     "title": "IT Capacity"
@@ -1427,10 +1343,10 @@
       "name": "rate_technology_effectiveness",
       "title": "How would you rate the user experience and effectiveness of technology (websites, apps, and systems) used by external customers?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Unacceptable"
+        "text": "Unacceptable 1"
         },
         {
         "value": "2",
@@ -1454,7 +1370,7 @@
         },
         {
         "value": "7",
-        "text": "Satisfactory"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1466,7 +1382,7 @@
         },
         {
         "value": "10",
-        "text": "Excellent"
+        "text": "10 Excellent"
         },
         {
         "value": "-",
@@ -1492,10 +1408,10 @@
       "name": "satisfaction_innovation",
       "title": "How satisfied are you with the IT department's Innovation Leadership and the IT department's effectiveness at enabling your group to capitalize on technology innovation opportunities?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1519,7 +1435,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1531,7 +1447,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1557,10 +1473,10 @@
       "name": "satisfaction_requirements",
       "title": "How satisfied are you with the ability of IT to accurately collect requirements and understand your area of the business?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1584,7 +1500,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1596,7 +1512,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1622,10 +1538,10 @@
       "name": "confidence_in_it_security",
       "title": "How satisfied are you that IT Security practices in your organization are appropriate?",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1649,7 +1565,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1661,7 +1577,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1675,10 +1591,10 @@
       "name": "satisfaction_it_policies",
       "title": "How satisfied are you with the design and enforcement of IT Policies that cover everything from security to governance of systems? For example, the ability to install programs on your computer or not.",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1702,7 +1618,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1714,7 +1630,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1763,10 +1679,10 @@
       "name": "relationship_needs_understand",
       "title": "IT understands your needs.",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1790,7 +1706,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1802,7 +1718,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1816,10 +1732,10 @@
       "name": "relationship_execution",
       "title": "IT is able to execute your requests in a way that meets your needs.",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1843,7 +1759,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1855,7 +1771,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1869,10 +1785,10 @@
       "name": "relationship_communication",
       "title": "IT communicates with your group effectively.",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1896,7 +1812,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1908,7 +1824,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
@@ -1922,10 +1838,10 @@
       "name": "relationship_needs_quality_training",
       "title": "IT provides high quality and timely training on applications and IT services as needed",
       "isRequired": true,
-      "ratevalues": [
+      "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied"
+        "text": "Not At All Satisfied 1"
         },
         {
         "value": "2",
@@ -1949,7 +1865,7 @@
         },
         {
         "value": "7",
-        "text": "Neutral"
+        "text": "7"
         },
         {
         "value": "8",
@@ -1961,7 +1877,7 @@
         },
         {
         "value": "10",
-        "text": "Fully Satisfied"
+        "text": "10 Fully Satisfied"
         },
         {
         "value": "-",
