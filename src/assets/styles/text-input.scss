@@ -5,5 +5,14 @@
 .sv_main input:not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]), 
 .sv_main select, .sv_main textarea {
     border-color: #999;
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.125)
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.125);
+    border-radius: 1px;
+}
+
+.sv_main .sv_q_other input, .sv_main .sv_q_text_root, .sv_main .sv_q_dropdown_control, .sv_main input:not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]), .sv_main select, .sv_main textarea {
+    border: 2px solid rgb(194, 194, 194);
+}
+
+.sv_main .sv_q_other input:focus, .sv_main .sv_q_text_root:focus, .sv_main .sv_q_dropdown_control:focus, .sv_main input:not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="image"]):not([type="checkbox"]):not([type="radio"]):focus, .sv_main select:focus, .sv_main textarea:focus {
+    border: 2px solid #52a5d1;
 }

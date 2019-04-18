@@ -22,7 +22,8 @@ import "./assets/styles/button-group.scss"
 import "./assets/styles/footer.scss"
 import "./assets/styles/progress-bar.scss"
 import "./assets/styles/alerts.scss"
-import "./assets/styles/start-page.scss"
+import "./assets/styles/header.scss"
+import "./assets/styles/question.scss"
 
   const Survey = SurveyVue.Survey;
   Survey.cssType = "bootstrap";

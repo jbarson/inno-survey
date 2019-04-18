@@ -22,10 +22,14 @@ body {
     background: white;
 }
 
+.sv_row {
+    padding: 0 50px;
+}
+
 .sv_main {
     background: none;
     background-color: none;
-    
+
     .sv_container {
         color: #333;
     }
@@ -33,4 +37,8 @@ body {
     .sv_custom_header {
         background: white;
     }
+}
+
+.sv_qcbx .checkbox label {
+    float: left;
 }
