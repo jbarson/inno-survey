@@ -15,6 +15,7 @@ import ciobv from "../src/assets/CIOBV.json";
 import "./assets/styles/base.scss";
 import "./assets/styles/buttons.scss"
 import "./assets/styles/button-group.scss"
+import "./assets/styles/footer.scss"
 
 const Survey = SurveyVue.Survey;
 Survey.cssType = "bootstrap";
