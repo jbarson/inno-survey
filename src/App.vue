@@ -759,10 +759,10 @@ export default {
             title: "How much business value would be created by improving the following IT services? Please rank from most to least",
             isRequired: true,
             choices: [
-              "Requirements Gathering", 
-              "Innovation Leadership", 
-              "Projects", 
-              "Customer-Facing Technology", 
+              "Requirements Gathering",
+              "Innovation Leadership",
+              "Projects",
+              "Customer-Facing Technology",
               "IT Security",
               "IT Policies",
               "Data Quality",
@@ -2033,7 +2033,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang='scss'>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
