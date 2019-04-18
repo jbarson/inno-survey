@@ -1,6 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app">  
     <div id="surveyElement">
+      <img src="./assets/images/itrg-logo.svg" id="logo">
             <survey :survey='survey'/>
         </div>
         <div id="surveyResult">{{survey.data}}</div>
@@ -13,9 +14,14 @@ import "bootstrap/dist/css/bootstrap.css";
 import * as widgets from "surveyjs-widgets";
 import ciobv from "../src/assets/CIOBV.json";
 import "./assets/styles/base.scss";
+import "./assets/styles/typography.scss";
 import "./assets/styles/buttons.scss"
+import "./assets/styles/textarea.scss"
+import "./assets/styles/text-input.scss"
 import "./assets/styles/button-group.scss"
 import "./assets/styles/footer.scss"
+import "./assets/styles/progress-bar.scss"
+import "./assets/styles/alerts.scss"
 
 const Survey = SurveyVue.Survey;
 Survey.cssType = "bootstrap";

@@ -1,0 +1,13 @@
+.progress {
+    height: 2530x;
+
+    .progress-bar {
+        background: #2576b7;
+        font-family: 'Exo', sans-serif;
+
+        span {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
