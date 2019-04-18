@@ -1,0 +1,14 @@
+.sv_main {
+    input.btn,
+    input[type="button"] {
+        background: #2576b7;
+        font-family: 'Exo', sans-serif;
+        font-size: 18px;
+        transition: all ease 0.3s;
+        border-radius: 0;
+
+        &:hover {
+            background: #1e5e92;
+        }
+    }
+}

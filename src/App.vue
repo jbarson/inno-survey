@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import * as widgets from "surveyjs-widgets";
 import ciobv from "../src/assets/CIOBV.json";
 import "./assets/styles/base.scss";
+import "./assets/styles/buttons.scss"
 import "./assets/styles/button-group.scss"
 
 const Survey = SurveyVue.Survey;
