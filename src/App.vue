@@ -53,6 +53,7 @@ export default {
           {
           type: "text",
           name: "email_address",
+          inputMask: "email",
           startWithNewLine: false,
           title: "Email address",
           isRequired: true
@@ -149,48 +150,20 @@ export default {
           title: "Overall, considering all factors, how satisfied are you with the IT department and its ability to support your needs?",
           isRequired: true,
           rateValues: [
-            {
-            value: "1",
-            text: "Not At All Satisfied"
-            },
-            {
-            value: "2",
-            text: "2"
-            },
-            {
-            value: "3",
-            text: "3"
-            },
-            {
-            value: "4",
-            text: "4"
-            },
-            {
-            value: "5",
-            text: "5"
-            },
-            {
-            value: "6",
-            text: "6"
-            },
-            {
-            value: "7",
-            text: "Neutral"
-            },
-            {
-            value: "8",
-            text: "8"
-            },
-            {
-            value: "9",
-            text: "9"
-            },
-            {
-            value: "10",
-            text: "Fully Satisfied"
-            }
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
           ],
-          rateMax: 10
+          rateMax: 10,
+          minRateDescription: "Not At All Satisfied",
+          maxRateDescription: "Fully Satisfied"
           },
           {
           type: "rating",
@@ -778,7 +751,30 @@ export default {
         },
         {
         name: "IT Importance",
-        title: "IT Importance"
+        title: "IT Importance",
+        elements: [
+          {
+            type: "sortablelist",
+            name: "lifepriority",
+            title: "How much business value would be created by improving the following IT services? Please rank from most to least",
+            isRequired: true,
+            choices: [
+              "Requirements Gathering", 
+              "Innovation Leadership", 
+              "Projects", 
+              "Customer-Facing Technology", 
+              "IT Security",
+              "IT Policies",
+              "Data Quality",
+              "Work Orders",
+              "Applications",
+              "Devices",
+              "Analytical Capability and Reports",
+              "Service Desk",
+              "Infrastructure"
+            ]
+          }
+        ]
         },
         {
         name: "Infrastructure and Service Desk",
