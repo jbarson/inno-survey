@@ -1,77 +1,27 @@
-
-  //// Start Page ////
-  div.sv_main.sv_bootstrap_css form div.sv_container div.panel-body.card-block.mt-4 {
+div.sv_main.sv_bootstrap_css form div.sv_container div.panel-body.card-block.mt-4 {
     h4 {
-      height: 200px;
-      line-height: 200px;
-      text-align: center;
-      background: linear-gradient(to bottom right, #5533ff, #38e2ee);
-      background-repeat: repeat;
-      background-size: auto;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        background: linear-gradient(to bottom right, #0042ac, #52a5d1);
+        background-repeat: repeat;
+        background-size: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
 
-      span {
-        font-size: 22px;
-        display: inline-block;
-        vertical-align: middle;
-        line-height: normal;
-        color: white;
-      }
+        span {
+            font-size: 22px;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+            color: white;
+        }
     }
-  }
+}
 
-  .sv_container {
+.sv_container {
     .panel-body {
-      padding: 0;
+        padding: 0;
     }
-  }
-
-  //// End Start Page ///
-  .sv_main {
-    background: none;
-
-    .sv_custom_header {
-      background: none;
-    }
-  }
-
-  .panel-footer {
-    background-color: unset;
-  }
-
-  input.btn.sv_start_btn {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    color: #5533ff;
-    border: 0px transparent;
-    border-radius: 0.3rem;
-    transition: 0.3s ease-in-out;
-    transition-delay: 0.35s;
-    overflow: hidden;
-    padding: 2rem 7rem;
-    background: white;
-    text-align: center;
-    display: inline-block;
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    position: relative;
-    will-change: transform;
-    border: none;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.95);
-    cursor: pointer;
-
-    &:before {
-      content: "";
-      display: block;
-      background: #401aff;
-      position: absolute;
-      width: 200%;
-      height: 500%;
-      border-radius: 100%;
-      transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
-      transform: translate(-120%, -50%) translateZ(0);
-    }
-  }
+}
