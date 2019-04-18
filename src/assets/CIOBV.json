@@ -1,0 +1,1994 @@
+{
+  "pages": [
+    {
+      "name": "Register for CIOBV 1.0",
+      "elements": [
+      {
+        "type": "text",
+        "name": "first_name",
+        "title": "First name",
+        "isRequired": true
+      },
+      {
+        "type": "text",
+        "name": "last_name",
+        "startWithNewLine": false,
+        "title": "Last name",
+        "isRequired": true
+      },
+      {
+        "type": "text",
+        "name": "email_address",
+        "inputMask": "email",
+        "startWithNewLine": false,
+        "title": "Email address",
+        "isRequired": true
+      },
+      {
+        "type": "text",
+        "name": "department",
+        "title": "Department",
+        "isRequired": true
+      },
+      {
+        "type": "text",
+        "name": "location",
+        "startWithNewLine": false,
+        "title": "Location",
+        "isRequired": true
+      },
+      {
+        "type": "dropdown",
+        "name": "seniority_level",
+        "startWithNewLine": false,
+        "title": "Seniority Level",
+        "isRequired": true,
+        "commenttext": "Other (describe)",
+        "choices": [
+        {
+        "value": "item1",
+        "text": "Owner / President / CEO"
+        },
+        {
+        "value": "item2",
+        "text": "C-Level"
+        },
+        {
+        "value": "item3",
+        "text": "VP-Level"
+        },
+        {
+        "value": "item4",
+        "text": "Director Level"
+        },
+        {
+        "value": "item5",
+        "text": "Manager Level"
+        },
+        {
+        "value": "item6",
+        "text": "Team Member"
+        },
+        {
+        "value": "item7",
+        "text": "Contractor"
+        },
+        {
+        "value": "item8",
+        "text": "Other"
+        }
+      ],
+      "optionsCaption": "Select your Seniority Level"
+      },
+      {
+      "type": "text",
+      "name": "full_title",
+      "title": "Full title"
+      },
+      {
+      "type": "text",
+      "name": "division",
+      "startWithNewLine": false,
+      "title": "Division"
+      },
+      {
+      "type": "text",
+      "name": "group_1",
+      "startWithNewLine": false,
+      "title": "Group 1"
+      },
+      {
+      "type": "text",
+      "name": "group_2",
+      "width": "33%",
+      "title": "Group 2"
+      }
+    ],
+    "title": "Get Started\nPlease fill out the following demographic fields to get started:",
+    "questionsOrder": "initial"
+    },
+    {
+    "name": "Overall Satisfaction",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "overall_satisfaction",
+      "title": "Overall, considering all factors, how satisfied are you with the IT department and its ability to support your needs?",
+      "isRequired": true,
+      "ratevalues": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "rateMax": 10,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
+      },
+      {
+      "type": "rating",
+      "name": "overall_value",
+      "title": "How satisfied are you that IT provides high value relative to your perception of cost and staffing?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        }
+      ],
+      "rateMax": 10
+      },
+      {
+      "type": "comment",
+      "name": "improvement_suggestion",
+      "title": "What is your top suggestion for how IT can change or improve to better meet your needs?",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "Overall Satisfaction"
+    },
+    {
+    "name": "Business Objectives",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "business_objective_value_01",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_02",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_03",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_04",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_05",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_06",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_07",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_08",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_09",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "business_objective_value_10",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      }
+    ],
+    "visible": false,
+    "title": "Business Objectives"
+    },
+    {
+    "name": "IT Importance",
+    "title": "IT Importance",
+    "elements": [
+      {
+        "type": "sortablelist",
+        "name": "lifepriority",
+        "title": "How much business value would be created by improving the following IT services? Please rank from most to least",
+        "isRequired": true,
+        "choices": [
+          "Requirements Gathering", 
+          "Innovation Leadership", 
+          "Projects", 
+          "Customer-Facing Technology", 
+          "IT Security",
+          "IT Policies",
+          "Data Quality",
+          "Work Orders",
+          "Applications",
+          "Devices",
+          "Analytical Capability and Reports",
+          "Service Desk",
+          "Infrastructure"
+        ]
+      }
+    ]
+    },
+    {
+    "name": "Infrastructure and Service Desk",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "net_inf_reliability_and_effectiveness_sat",
+      "title": "How satisfied are you with the reliability and effectiveness of the core communication and network Infrastructure?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "satisfaction_device",
+      "title": "How satisfied are you with the PC, laptop, tablet, and mobile devices provided and their performance?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "satisfaction_service_desk",
+      "title": "How satisfied are you with the responsiveness and effectiveness of the Service Desk?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      }
+    ],
+    "title": "Infrastructure and Service Desk"
+    },
+    {
+    "name": "Business Applications",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "satisfaction_business_apps",
+      "title": "How satisfied are you with the Business Applications provided by IT and the functionality they provide to support your group?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "comment",
+      "name": "it_improvement_opportunity",
+      "title": "What is the biggest opportunity for IT to better meet your needs through Business Applications? (Is there a gap in application coverage, a process or an app that isn't effectively meeting your needs?)",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "Business Applications"
+    },
+    {
+    "name": "Data Reliability & Analytical Capability",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "satisfaction_data",
+      "title": "How satisfied are you with the quality, reliability, and effectiveness of the Data you use to manage your group?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "satisfaction_reporting",
+      "title": "How satisfied are you with the Reporting and Analytical Capability available to you to generate business insights within your group? (Including standard reports, custom reports capability, and BI tools)",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "comment",
+      "name": "suggestion_it_reporting",
+      "title": "What is your top suggestion for how IT could better meet your Data, Reporting and Analytics needs?",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "Data Reliability & Analytical Capability"
+    },
+    {
+    "name": "IT Work Orders",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "satisfaction_work_orders",
+      "title": "How satisfied are you with IT's ability to begin and complete your requested IT customizations and small Work Orders in a timely manner?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "satisfaction_work_order_completion",
+      "title": "How satisfied are you with the completed IT customizations, Work Orders, and enhancements and their ability to meet your intended business needs effectively?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      }
+    ],
+    "title": "IT Work Orders"
+    },
+    {
+    "name": "IT Projects",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "satisfaction_big_projects",
+      "title": "How satisfied are you with the availability of IT capacity to begin and complete significant IT Projects & initiatives which enable your group to achieve your strategic objectives?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "satisfaction_project_completion",
+      "title": "How satisfied are you with completed IT Projects and the IT department's ability to deliver effective solutions to meet your business needs?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      }
+    ],
+    "title": "IT Projects"
+    },
+    {
+    "name": "IT Capacity",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "capacity_need",
+      "title": "To what extent is your group constrained and prevented from reaching your strategic goals by IT Capacity?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not Constrained"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "Somewhat Constrained"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Very Constrained"
+        }
+      ],
+      "rateMax": 10
+      },
+      {
+      "type": "rating",
+      "name": "capacity_shadowit",
+      "title": "To what extent do you look externally and purchase IT services & applications without IT involvement, due to a lack of internal IT Capacity?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "Sometimes"
+        },
+        {
+        "value": "7",
+        "text": "7"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Consistently"
+        }
+      ],
+      "rateMax": 10
+      }
+    ],
+    "title": "IT Capacity"
+    },
+    {
+    "name": "Customer-Facing Technology",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "rate_technology_effectiveness",
+      "title": "How would you rate the user experience and effectiveness of technology (websites, apps, and systems) used by external customers?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Unacceptable"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Satisfactory"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Excellent"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "comment",
+      "name": "knowledge_customer_facing_technology",
+      "title": "What does IT need to know about the greatest opportunity to improve Customer-Facing Technology?",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "Customer-Facing Technology"
+    },
+    {
+    "name": "IT Innovation Leadership",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "satisfaction_innovation",
+      "title": "How satisfied are you with the IT department's Innovation Leadership and the IT department's effectiveness at enabling your group to capitalize on technology innovation opportunities?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "comment",
+      "name": "improvement_technology",
+      "title": "What is your best idea for how technology can be utilized to innovate, transform and optimize performance?",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "IT Innovation Leadership"
+    },
+    {
+    "name": "Requirements Gathering",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "satisfaction_requirements",
+      "title": "How satisfied are you with the ability of IT to accurately collect requirements and understand your area of the business?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "comment",
+      "name": "improvement_requirements_gathering",
+      "title": "What is the greatest area of improvement within Requirements Gathering to better support the business?",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "Requirements Gathering"
+    },
+    {
+    "name": "IT Security & Policies",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "confidence_in_it_security",
+      "title": "How satisfied are you that IT Security practices in your organization are appropriate?",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not at all Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "satisfaction_it_policies",
+      "title": "How satisfied are you with the design and enforcement of IT Policies that cover everything from security to governance of systems? For example, the ability to install programs on your computer or not.",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "checkbox",
+      "name": "it_practices_causing_unacceptable_friction",
+      "title": "Which of the following areas have an unacceptable level of friction for business processes due to current IT Security practices? Check all that apply.",
+      "choices": [
+        {
+        "value": "Remote/Mobile Device Access",
+        "text": "Remote/Mobile Device Access"
+        },
+        {
+        "value": "Office/Desktop Computing",
+        "text": "Office/Desktop Computing"
+        },
+        {
+        "value": "Regulatory Compliance",
+        "text": "Regulatory Compliance"
+        },
+        {
+        "value": "Data Access/Integrity",
+        "text": "Data Access/Integrity"
+        }
+      ]
+      },
+      {
+      "type": "comment",
+      "name": "it_security_pain_point",
+      "title": "What is the biggest pain point in terms of IT Security interfering with your work? What would you like to see done differently?",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "IT Security & Policies"
+    },
+    {
+    "name": "IT Relationship",
+    "elements": [
+      {
+      "type": "rating",
+      "name": "relationship_needs_understand",
+      "title": "IT understands your needs.",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "relationship_execution",
+      "title": "IT is able to execute your requests in a way that meets your needs.",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "relationship_communication",
+      "title": "IT communicates with your group effectively.",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      },
+      {
+      "type": "rating",
+      "name": "relationship_needs_quality_training",
+      "title": "IT provides high quality and timely training on applications and IT services as needed",
+      "isRequired": true,
+      "ratevalues": [
+        {
+        "value": "1",
+        "text": "Not At All Satisfied"
+        },
+        {
+        "value": "2",
+        "text": "2"
+        },
+        {
+        "value": "3",
+        "text": "3"
+        },
+        {
+        "value": "4",
+        "text": "4"
+        },
+        {
+        "value": "5",
+        "text": "5"
+        },
+        {
+        "value": "6",
+        "text": "6"
+        },
+        {
+        "value": "7",
+        "text": "Neutral"
+        },
+        {
+        "value": "8",
+        "text": "8"
+        },
+        {
+        "value": "9",
+        "text": "9"
+        },
+        {
+        "value": "10",
+        "text": "Fully Satisfied"
+        },
+        {
+        "value": "-",
+        "text": "N/A"
+        }
+      ],
+      "rateMax": 11
+      }
+    ],
+    "title": "IT Relationship"
+    },
+    {
+    "name": "Additional Comments",
+    "elements": [
+      {
+      "type": "comment",
+      "name": "anonymous_response",
+      "title": "Please add any additional comments here.  These comments will be presented in an anonymous fashion to the survey administrator.",
+      "placeHolder": "Answer"
+      }
+    ],
+    "title": "Additional Comments"
+    }
+  ],
+  "showQuestionNumbers": "off",
+  "showProgressBar": "top",
+  "startSurveytext": "Start Survey",
+  "completetext": "Finish",
+  "firstPageIsStarted": true
+}
