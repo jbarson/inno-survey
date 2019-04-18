@@ -2033,13 +2033,51 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+
+@import url(https://fonts.googleapis.com/css?family=Exo|Montserrat|Roboto);
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.btn-group {
+
+  .btn {
+    background: #f7be44;
+    color: white;
+    border: none;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+  }
+
+  .btn:first-child {
+    background: #671611;
+  }
+
+  .btn:nth-child(2) {
+    background: #ae2932;
+  }
+
+  .btn:nth-child(3) {
+    background: #ce3436;
+  }
+
+  .btn:nth-child(8) {
+    background: #8fc96f;
+  }
+
+  .btn:nth-child(9) {
+    background: #5bb656;
+  }
+
+  .btn:nth-child(10) {
+    background: #21914c;
+  }
 }
 </style>
