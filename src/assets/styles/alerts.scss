@@ -1,0 +1,25 @@
+.alert-danger {
+    color: #b3252e;
+    text-align: left;
+    max-width: 640px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    background: #b3252e;
+    margin-left: auto;
+    margin-right: auto;
+
+    div {
+        background: #EEE;
+        padding: 15px;
+        margin-left: 50px;
+    }
+
+    .glyphicon {
+        height: 100%;
+        width: auto;
+        color: white;
+        position: relative;
+        left: -47px;
+    }
+}

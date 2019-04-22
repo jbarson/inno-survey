@@ -1,5 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Exo|Montserrat|Roboto);
 
+#surveyResult {
+    display: none; //HIDE JSON FROM PRESENTATION
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#app {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    background-color:#fff;
+    padding-bottom: 50px;
+    min-height: 100%;
+    background-image:linear-gradient(135deg, transparent 0%, #fff 25%, #fff 75%, transparent 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQoU2N89+7dfwYsQEhIiBEkzDgkFGDzAbIY2Cv4AACvrBgJjYNGfwAAAABJRU5ErkJggg==);
+    
+
+    @media screen and (max-width: 957px) {
+        padding-bottom: 0;
+    }
+}
+
+
 body {
     background: white;
 }
@@ -14,12 +41,17 @@ body {
     max-width: 1400px;
     box-shadow: 9px 7px 40px -6px rgba(0, 0, 0, 0.25);
     overflow: hidden;
-    padding: 0;
+    padding: 0 0 20px;
     min-height: 300px;
-    margin: 20px auto;
+    margin: 20px auto 0;
     border-radius: 5px;
     position: relative;
     background: white;
+
+
+    @media screen and (max-width: 957px) {
+        width: 100%;
+    }
 }
 
 .sv_row {
@@ -32,10 +64,14 @@ body {
 
     .sv_container {
         color: #333;
+
+        .panel-body {
+            padding: 0;
+        }
     }
 
     .sv_custom_header {
-        background: white;
+        background: transparent;
     }
 }
 

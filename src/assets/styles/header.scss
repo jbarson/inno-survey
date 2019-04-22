@@ -11,6 +11,11 @@ div.sv_main.sv_bootstrap_css form div.sv_container div.panel-body.card-block.mt-
         margin: 0;
         padding: 0 20px;
 
+        @media screen and (max-width: 957px) {
+            height: 100px;
+            line-height: 100px;
+        }
+
         span {
             font-family: 'Montserrat', sans-serif;
             font-size: 26px;
@@ -24,8 +29,3 @@ div.sv_main.sv_bootstrap_css form div.sv_container div.panel-body.card-block.mt-
     }
 }
 
-.sv_container {
-    .panel-body {
-        padding: 0;
-    }
-}

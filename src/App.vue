@@ -13,9 +13,11 @@ import * as SurveyVue from "survey-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import * as widgets from "surveyjs-widgets";
 import ciobv from "../src/assets/CIOBV.json";
+import $ from "jquery";
 import "./assets/styles/base.scss";
 import "./assets/styles/typography.scss";
 import "./assets/styles/buttons.scss"
+import "./assets/styles/checkboxes.scss"
 import "./assets/styles/textarea.scss"
 import "./assets/styles/text-input.scss"
 import "./assets/styles/button-group.scss"
@@ -24,8 +26,18 @@ import "./assets/styles/progress-bar.scss"
 import "./assets/styles/alerts.scss"
 import "./assets/styles/header.scss"
 import "./assets/styles/question.scss"
+import "./assets/styles/ranking.scss"
 
   const Survey = SurveyVue.Survey;
+
+  // Survey
+  //   .onComplete
+  //   .add(function (result) {
+  //       document
+  //           .querySelector('#surveyResult')
+  //           .innerHTML = "result: " + JSON.stringify(result.data);
+  //   });
+
   Survey.cssType = "bootstrap";
   widgets.icheck(SurveyVue);
   widgets.select2(SurveyVue);
@@ -39,6 +51,10 @@ import "./assets/styles/question.scss"
   widgets.ckeditor(SurveyVue);
   widgets.autocomplete(SurveyVue);
   widgets.bootstrapslider(SurveyVue);
+
+
+  
+
   export default {
     name: "app",
     components: {
@@ -47,21 +63,11 @@ import "./assets/styles/question.scss"
     data() {
       const json = ciobv;
       const model = new SurveyVue.Model(json);
+
       return {
         survey: model
       };
     }
   };
-</script>
 
-<style lang='scss'>
-  #app {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    background-color:#fff;
-    background-image:linear-gradient(135deg, transparent 0%, #fff 25%, #fff 75%, transparent 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAIklEQVQoU2N89+7dfwYsQEhIiBEkzDgkFGDzAbIY2Cv4AACvrBgJjYNGfwAAAABJRU5ErkJggg==);
-  }
-</style>
+</script>

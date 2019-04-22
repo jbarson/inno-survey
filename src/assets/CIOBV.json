@@ -171,7 +171,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -207,7 +207,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -223,7 +223,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -259,7 +259,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -275,7 +275,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -311,7 +311,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -327,7 +327,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -363,7 +363,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -379,7 +379,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -415,7 +415,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -431,7 +431,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -467,7 +467,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -483,7 +483,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -519,7 +519,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -535,7 +535,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -571,7 +571,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -587,7 +587,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -623,7 +623,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -639,7 +639,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not at all Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -675,7 +675,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -726,7 +726,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -762,14 +762,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -779,7 +781,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -815,14 +817,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -832,7 +836,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -868,14 +872,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       }
     ],
     "title": "Infrastructure and Service Desk"
@@ -891,7 +897,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -927,14 +933,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "comment",
@@ -956,7 +964,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -992,14 +1000,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -1009,7 +1019,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1045,14 +1055,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "comment",
@@ -1074,7 +1086,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1110,14 +1122,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -1127,7 +1141,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1163,14 +1177,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       }
     ],
     "title": "IT Work Orders"
@@ -1186,7 +1202,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1222,14 +1238,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -1239,7 +1257,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1275,14 +1293,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       }
     ],
     "title": "IT Projects"
@@ -1346,7 +1366,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Unacceptable 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1382,14 +1402,16 @@
         },
         {
         "value": "10",
-        "text": "10 Excellent"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Unacceptable",
+      "maxRateDescription": "Excellent"
       },
       {
       "type": "comment",
@@ -1411,7 +1433,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1447,14 +1469,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "comment",
@@ -1476,7 +1500,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1512,14 +1536,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "comment",
@@ -1541,7 +1567,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1577,7 +1603,7 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
@@ -1594,7 +1620,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1630,14 +1656,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "checkbox",
@@ -1682,7 +1710,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1718,14 +1746,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -1735,7 +1765,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1771,14 +1801,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -1788,7 +1820,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1824,14 +1856,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       },
       {
       "type": "rating",
@@ -1841,7 +1875,7 @@
       "rateValues": [
         {
         "value": "1",
-        "text": "Not At All Satisfied 1"
+        "text": "1"
         },
         {
         "value": "2",
@@ -1877,14 +1911,16 @@
         },
         {
         "value": "10",
-        "text": "10 Fully Satisfied"
+        "text": "10"
         },
         {
         "value": "-",
         "text": "N/A"
         }
       ],
-      "rateMax": 11
+      "rateMax": 11,
+      "minRateDescription": "Not At All Satisfied",
+      "maxRateDescription": "Fully Satisfied"
       }
     ],
     "title": "IT Relationship"

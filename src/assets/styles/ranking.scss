@@ -1,0 +1,84 @@
+.sjs-sortablejs-result {
+    border: 1px solid #2a78b5 !important;
+
+    span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        padding: 20px;
+        display: block;
+    }
+
+    div {
+        display: list-item;
+        list-style-type: decimal;
+        list-style-position: outside;
+        text-align: left;
+        margin-left: 40px;
+        font-family: 'Exo', sans-serif;
+        font-weight: 900;
+        color: white;
+
+        .sjs-sortablejs-item {
+            display: block;
+            background-color: #2a78b5 !important;
+            margin-left: -35px !important;
+        }
+    }
+}
+
+.sjs-sortablejs-source {
+    border: 1px solid #2a78b5 !important;
+
+    .sjs-sortablejs-item {
+        display: block;
+        background-color: #666 !important;
+        text-align: left;
+    }
+}
+
+.sjs-sortablejs-result,
+.sjs-sortablejs-source {
+
+    .sjs-sortablejs-item {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+        position: relative;
+        transition: all ease 0.3s;
+    
+        &:after {
+            display: block;
+            content: ' ';
+            width: 15px;
+            height: 15px;
+            background: url(../images/bars.svg);
+            position: absolute;
+            top: 11px;
+            right: 18px;
+            opacity: 0.5;
+            transition: all ease 0.3s;
+        }
+
+        &:hover {
+            cursor: move;
+            cursor: -webkit-grab;
+
+            &:after {
+                opacity: 0.75;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .sjs-sortablejs-source,
+    .sjs-sortablejs-result {
+        width: calc(50% - 20px) !important;
+        float: left;
+    }
+
+    .sjs-sortablejs-source {
+        margin-left: 20px;
+    }
+}
+
